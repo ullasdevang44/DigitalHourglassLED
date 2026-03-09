@@ -5,9 +5,7 @@ A **tilt-activated digital hourglass** using **dual 8x8 LED matrices**, a **tilt
 ---
 
 ## **Table of Contents**
-- [Features](#features)
 - [Circuit Diagram](#circuit-diagram)
-- [Block Diagram](#block-diagram)
 - [Flowchart](#flowchart)
 - [Bill of Materials (BOM)](#bill-of-materials-bom)
 - [Software Setup](#software-setup)
@@ -26,19 +24,13 @@ A **tilt-activated digital hourglass** using **dual 8x8 LED matrices**, a **tilt
 
 ---
 
-## **Circuit Diagram**
-![Circuit Diagram](hardware/circuit_diagram.png)
+## **Components Required**
 
 - **Arduino Nano**
 - **2x 8x8 LED Matrix** (MAX7219)
 - **Tilt Sensor**
 - **Buzzer**
-- **Wires & Breadboard / PCB**
-
----
-
-## **Block Diagram**
-![Block Diagram](hardware/block_diagram.png)
+- **PCB**
 
 - Arduino Nano → Controls matrices and reads tilt sensor
 - Tilt Sensor → Provides gravity orientation
@@ -48,7 +40,6 @@ A **tilt-activated digital hourglass** using **dual 8x8 LED matrices**, a **tilt
 ---
 
 ## **Flowchart**
-![Flowchart](hardware/flowchart.png)
 
 1. Start
 2. Initialize matrices
